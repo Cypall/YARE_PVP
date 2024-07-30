@@ -1,0 +1,83 @@
+-----------------------------------------
+  PvPGN YARE MOD V1.1.0 - VersionHistory
+-----------------------------------------
+2003-06-03~26 Fixes a hoi!
+
+    * Fixed Alt + F4 bug when killing a monster making the server crash (Fr3DBr)
+    * Added Commands !who & !kill (SilentAvenger)
+    * Fixed Party !HAHA! (Lemming)
+    * Fixed NPC CRASH BUG (Lemming)
+    * Fixed Fly Wing Wrong warp code (Lemming)
+    * Fixed Attack monsters Hydra/Mandragora(neoeagle)
+    * Fixed Storage Code (Lemming)
+    * Fixed Trade code (Lemming)
+    * Fixed commands /b and nb now only gms can use it. (by SilentAvenger)
+    * Added Npc 2nd jobs (by Shouji Tweaked by Fr3Dbr)
+    * Fixed the STATUS problems at: MATK / ATK / DEF / MDEF ! (By Fr3DBr)
+    * Added Translated Files (The *.txt ones in the config folder)
+      - Re-edited (by Drakee) / Modified (by Araku)
+    * Fixed Thief Quest Npc (By Fr3DBr)
+    * Fixed SIT now needs Level 3 Basic Skill to use ! (by hud)
+    * Fixed Attack Speed when killing. Looks more real now. (by Fr3DBr)
+    * Fixed Character Deletion Bug (RE-FIXED) (by hud)
+    * Fixed Acolyte Quest (by Fr3DBr)
+    * Fixed Mage Quest (by Fr3DBr)
+    * Fixed !pvpon / !pvpoff (by Anti-Gremlin)
+    * Fixed grfio.c loading of data.grf (by Anti-Gremlin)
+    * Fixed Monster Capitals (by hud)
+    * Fixed !Base_UP now, max level is 99 (By Fr3DBr)
+    * Fixed attack monster bug (by DJP)
+    * Fixed Free'D some bufs on server (by aaron)
+    * Fixed Little bug in Saving Sprite Code (By hud)
+    * Fixed Some invalid pointers... (by Fr3DBr)
+    * Optimized the speed of core. (by Fr3DBr)
+    * Fixed All new accounts are GM, now new accounts aren't GM. (by hud)
+    * Fixed Job up not giving skill points. (by hud)
+    * Fixed jobchange/job up misinterpretation. (by hud)
+    * Fixed Dexterity Formula. now no more lot of misses. (by Fr3DBr/Anti-Gremlin)
+    * Added CheckFalcon/CheckCart/CheckStorage/CheckPecoPeco script commands and give_special (by hud)
+      use "give_special 1" to give a cart
+      use "give_special 2" to give a falcon
+      use "give_special 3" to give a pecopeco
+      if CheckCart = 0 they do not have enough skills to use a cart
+      if CheckCart = 1  they have enough skills to use a cart
+      same for CheckFalcon and CheckStorage
+    * Added full_heal script command (heals player to full hp/sp) (by hud)
+    * Added possible fix for players.txt wiping.. (by hud/Anti-Gremlin/SilentAvenger)
+      - Fixed new character creation wiping playerlist
+    * Player names now display below character
+    * Memory Leakage (by aaron)
+    * Heal Skill, Bash Skill (by Wisc)
+
+-----------------------------------------
+  PvPGN YARE MOD V1.0.0 - VersionHistory
+-----------------------------------------
+
+2003-06-02 PvPGN team makes a new mod for YARE
+
+    * Fixed m´alloc bugs.
+    * Delete Char Bug.
+    * Wrong Last save point respawn area problem.
+    * caculation of new skills, Job levels and stats (by mitchen)
+    * Added new function to script.c recognizes the 
+      current job : use getjob on npc.txt files.
+    * Added new routine to reset job to level 1(by lemming)
+      and skills(by hud) to 0 wich was earned with 
+      high job levels. (more than 10).
+    * Oficial npc_kafra.txt 100% done.
+    * Oficial npc_1stjobs.txt 100% done.
+
+-----------------------------------------
+
+2003-05-28 Mra
+    * Applied eggys patch for char2.c and login2.c
+    * Applied project-yare.de athena do_timer patch
+    * included GPL Copyright to source files and added comments in login2.c for disabling _M and _F registrations
+
+-----------------------------------------
+
+2003-05-27 Mra
+    * Added partially support for kro headgears.
+    * Translated GM-Commands and added !hide command
+
+-----------------------------------------
