@@ -1,2 +1,2 @@
-# YARE_PVP
+# YARE PVP
  Ragnarok Server Emulator
